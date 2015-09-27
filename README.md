@@ -3,7 +3,7 @@
 ## Course Project
 
 
-This project consists in collecting, working and cleaning the data set provided at the following link:
+This project consists in collecting, working and cleaning the dataset provided at the following link:
 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -18,7 +18,8 @@ This dataset was built by measuring the signals of the accelerometer and the gyr
 
 ### Processing steps
 
-The steps performed by the `run_analysis.R` script are the following:
+To run the analysis and create the new tidy dataset run the `runAnalysis` function with no arguments present in `run_analysis.R` file.
+The steps performed by the `runAnalysis` function are the following:
 
 1. `getDataSets`:
     1. Retrieves the names of the columns of the dataset from the second column of `UCI HAR Dataset/features.txt`.
